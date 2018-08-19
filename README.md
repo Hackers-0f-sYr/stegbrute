@@ -27,6 +27,6 @@ python3 stegbrute.py --image steg.jpg --output output.txt --wordlist passwords.t
 
 ### About
 
-HTB: https://www.hackthebox.eu/home/users/profile/47396
-Twitter: @diefunction
+HTB: https://www.hackthebox.eu/home/users/profile/47396 <br />
+Twitter: @diefunction <br />
 Discord: Diefunction#1337
