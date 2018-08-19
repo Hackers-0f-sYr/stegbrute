@@ -8,9 +8,6 @@ def parseArgs():
     import argparse
     from sys import argv
 
-    if(len(argv) < 3):
-        print('Usage: {} [Options] use -h for help'.format(argv[0]))
-        exit()
     parser = argparse.ArgumentParser(epilog='Example: {} -i steg.jpg -o output.txt -w wordlist.txt'.format(argv[0]))
     parser._optionals.title = 'OPTIONS'
     parser.add_argument('-i', '--image', help='select stego image', required=True)
